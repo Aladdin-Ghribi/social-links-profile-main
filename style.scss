@@ -1,0 +1,76 @@
+//primary-color
+
+$primary-color: hsl(75, 94%, 57%);
+//NEUTRAL
+
+$light-color:hsl(0, 0%, 100%);
+$Dark-color :hsl(0, 0%, 8%);
+//secondry-colors
+
+$Grey:hsl(0, 0%, 20%);
+$Dark-gray:hsl(0, 0%, 12%);
+
+//Fonts
+$Primary-font:"Inter", sans-serif;
+
+body{
+    background-color:$Dark-color;
+    font-family: $Primary-font;
+    
+}
+.lay-1{
+    color: $light-color;
+    background-color: $Dark-gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 350px;
+    padding: 30px;
+    img{
+        width: 80px;
+        border-radius: 100%;
+    }
+    p{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+.lay-2{
+text-align: center;
+.header{
+    font-size: 23px;
+}
+.par{
+    color: $primary-color;
+    font-size: 14px;
+}
+}
+
+.lay-3{
+    display: flex;
+    flex-direction: column;    
+    list-style-type: none;
+    align-items: center;
+    margin-right: 30px;
+    li{
+        text-align: center;
+        a{
+            background-color: $Grey;
+            color:$light-color;
+             width: 300px;
+             padding:10px   ;
+             text-align: center;
+          margin-bottom: 15px; 
+          font-size: 14px;  
+          font-weight: bold;
+          
+          &:hover{   
+          background-color: $primary-color;
+          color: $Dark-color;
+        }
+        
+    }
+
+}}

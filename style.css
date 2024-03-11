@@ -1,0 +1,60 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+
+.lay-1 {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  max-width: 350px;
+  padding: 30px;
+}
+.lay-1 img {
+  width: 80px;
+  border-radius: 100%;
+}
+.lay-1 p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.lay-2 {
+  text-align: center;
+}
+.lay-2 .header {
+  font-size: 23px;
+}
+.lay-2 .par {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+
+.lay-3 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  margin-right: 30px;
+}
+.lay-3 li {
+  text-align: center;
+}
+.lay-3 li a {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.lay-3 li a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}/*# sourceMappingURL=style.css.map */
